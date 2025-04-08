@@ -23,3 +23,16 @@ The following packages were updated:
   com.unity.xr.interaction.toolkit from version 2.6.3 to 2.6.4
   com.unity.xr.oculus from version 4.4.0 to 4.5.0
   com.unity.xr.openxr from version 1.13.2 to 1.14.0
+
+=== Mon Apr  7 03:52:17 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@4.4.2
+  com.unity.analytics@3.8.1
+  com.unity.purchasing@4.11.0
+  com.unity.xr.legacyinputhelpers@2.1.10
