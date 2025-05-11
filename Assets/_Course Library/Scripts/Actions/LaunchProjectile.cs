@@ -17,7 +17,10 @@ public class LaunchProjectile : MonoBehaviour
 
     public void Fire()
     {
+        Debug.Log(startPoint.position);
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
+        newObject.SetActive(true);
+
 
         if (newObject.TryGetComponent(out Rigidbody rigidBody))
             ApplyForce(rigidBody);
