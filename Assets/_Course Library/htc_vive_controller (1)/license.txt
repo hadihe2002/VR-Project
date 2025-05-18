@@ -1,0 +1,11 @@
+Model Information:
+* title:	htc vive controller
+* source:	https://sketchfab.com/3d-models/htc-vive-controller-f9cc5f021c044a25b2c89029448d9602
+* author:	serkanmert (https://sketchfab.com/serkanmer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "htc vive controller" (https://sketchfab.com/3d-models/htc-vive-controller-f9cc5f021c044a25b2c89029448d9602) by serkanmert (https://sketchfab.com/serkanmer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
