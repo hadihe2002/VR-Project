@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 /// <summary>
@@ -19,6 +19,7 @@ public class LaunchProjectile : MonoBehaviour
     {
         Debug.Log(startPoint.position);
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
+        
         newObject.SetActive(true);
 
 

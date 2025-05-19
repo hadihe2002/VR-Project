@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit.Inputs.Interactions;
 
 public class ButtonsTogether : MonoBehaviour
 {
@@ -49,8 +50,12 @@ public class ButtonsTogether : MonoBehaviour
     private bool AllPressed()
     {
         foreach (var a in actions)
+        {
             if (!a.IsPressed())     // IsPressed() works for any button interaction
                 return false;
+            //Debug.Log(a.interactions[0]);
+        }
+
         return true;
     }
 }
