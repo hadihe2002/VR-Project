@@ -51,9 +51,8 @@ public class ButtonsTogether : MonoBehaviour
     {
         foreach (var a in actions)
         {
-            if (!a.IsPressed())     // IsPressed() works for any button interaction
+            if (a.phase != InputActionPhase.Performed)     // IsPressed() works for any button interaction
                 return false;
-            //Debug.Log(a.interactions[0]);
         }
 
         return true;

@@ -59,6 +59,7 @@ QualitySettings:
     - Standalone
     - Server
     - WebGL
+    - Android
   - serializedVersion: 3
     name: Balanced
     pixelLightCount: 1
@@ -163,6 +164,7 @@ QualitySettings:
     - Standalone
     - WebGL
     - Server
+    - Android
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
     Android: 1
