@@ -26,7 +26,7 @@ public class OnCollision : MonoBehaviour
     }
 
     private void OnValidate()
-    {
+    { 
         if (TryGetComponent(out Collider collider))
             collider.isTrigger = false;
     }

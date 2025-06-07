@@ -9,9 +9,6 @@ public class clock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print(hour.transform.eulerAngles);
-        print(minute.transform.eulerAngles.y);
-        print(second.transform.eulerAngles);
     }
 
     // Update is called once per frame

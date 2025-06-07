@@ -20,6 +20,7 @@ public class OnTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Hello");
         if (CanTrigger(other.gameObject))
             OnEnter?.Invoke(other);
     }
